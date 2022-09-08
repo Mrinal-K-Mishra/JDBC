@@ -74,7 +74,7 @@ public class CrudDemo {     // main method
 			// register the driver with jdbc
 			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 			// get connection from database
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","anit@1998*07");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","mri@1998*07");
 			
 			return conn;
 		// catch block	
