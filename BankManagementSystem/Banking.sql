@@ -1,4 +1,4 @@
-use jaitadb;
+use mrinaldb;
 create table banking(
 AccountNumber int,
 FullName varchar(50),
