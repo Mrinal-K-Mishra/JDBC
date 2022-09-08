@@ -17,6 +17,6 @@ static {
 	}
 	// Coonection method to get connection from sql database
 	public static Connection con () throws SQLException {
-		return DriverManager.getConnection("jdbc:mysql://localhost:3507/lab","root","adrika@1897*06");
+		return DriverManager.getConnection("jdbc:mysql://localhost:7098/lab","root","mri@1897*06");
 	}
 }
